@@ -36,7 +36,7 @@ export default function App() {
     setClientIdState(clientId);
     // Note: use wss:// instead of ws:// because AI Studio runs on HTTPS
     // and browsers block mixed active content.
-    const url = 'wss://broker.hivemq.com:8443/mqtt';
+    const url = 'wss://broker.hivemq.com:8884/mqtt';
     setConnectStatus('Connecting');
     
     // Using mqtt connect
